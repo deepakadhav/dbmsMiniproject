@@ -1,0 +1,12 @@
+Database creation :
+create database ang;
+
+customer Table : 
+create table customer (id int(10) NOT NULL,name varchar(20) NOT NULL, dob date, address varchar(50) NOT NULL, contact int(10) NOT NULL, posst varchar(15), doj date,dor date, payment int(15),bac int(20), bifc int (20), branch varchar(30),adhar int(20),email varchar(20),PRIMARY KEY (id));
+
+create table children (id int(10) NOT NULL,name varchar(20) NOT NULL, dob date, weight int(2), edate date,itime time, childtype varchar(5), health varchar(20), expens varchar(20), PRIMARY KEY (id));
+
+Users Table :
+create table users(firstname varchar(20) NOT NULL, lastname varchar(20) NOT NULL,username varchar(20) NOT NULL,password varchar(20) NOT NULL,PRIMARY KEY(username));
+
+
